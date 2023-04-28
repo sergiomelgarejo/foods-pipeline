@@ -1,28 +1,6 @@
 version: "3.8"
-# Optional Jupyter Notebook service
-services:
-  jupyter_notebook:
-    image: "jupyter/minimal-notebook"
-    build:
-      context: .
-      dockerfile: jupyter-dockerfile
-    container_name: ${CONTAINER_NAME:-jupyter_notebook}
-    environment:
-      JUPYTER_ENABLE_LAB: "yes"
-    user: 0:0
-    env_file:
-      - .env
-    ports:
-      - "8888:8888"
-    volumes:
-      - jupyter_volume:/home/jovyan/work
-    depends_on:
-      - database
-    links:
-      - database
-    networks:
-      - etl_network
 
+services:
   database:
     image: "postgres:13"
     container_name: ${CONTAINER_NAME:-database}
@@ -62,13 +40,6 @@ volumes:
       type: none
       o: bind 
       device: ${PG_DATA}
-
-  jupyter_volume:
-    driver: local
-    driver_opts:
-      type: none
-      o: bind
-      device: ${JUPYTER_NOTEBOOKS}
 
 # Create a custom network for bridging the containers
 networks:

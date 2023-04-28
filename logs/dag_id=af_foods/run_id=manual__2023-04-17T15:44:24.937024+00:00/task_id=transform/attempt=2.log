@@ -1,0 +1,23 @@
+[2023-04-17 16:45:33,376] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: af_foods.transform manual__2023-04-17T15:44:24.937024+00:00 [queued]>
+[2023-04-17 16:45:33,381] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: af_foods.transform manual__2023-04-17T15:44:24.937024+00:00 [queued]>
+[2023-04-17 16:45:33,382] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-17 16:45:33,382] {taskinstance.py:1357} INFO - Starting attempt 2 of 2
+[2023-04-17 16:45:33,382] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-17 16:45:33,389] {taskinstance.py:1377} INFO - Executing <Task(_PythonDecoratedOperator): transform> on 2023-04-17 15:44:24.937024+00:00
+[2023-04-17 16:45:33,393] {standard_task_runner.py:52} INFO - Started process 561 to run task
+[2023-04-17 16:45:33,396] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'af_foods', 'transform', 'manual__2023-04-17T15:44:24.937024+00:00', '--job-id', '9', '--raw', '--subdir', 'DAGS_FOLDER/af_foods.py', '--cfg-path', '/tmp/tmpqufodyxy', '--error-file', '/tmp/tmp12hq2z6n']
+[2023-04-17 16:45:33,397] {standard_task_runner.py:80} INFO - Job 9: Subtask transform
+[2023-04-17 16:45:33,438] {task_command.py:369} INFO - Running <TaskInstance: af_foods.transform manual__2023-04-17T15:44:24.937024+00:00 [running]> on host b016b1d76fa3
+[2023-04-17 16:45:34,904] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=me
+AIRFLOW_CTX_DAG_ID=af_foods
+AIRFLOW_CTX_TASK_ID=transform
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-17T15:44:24.937024+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-04-17T15:44:24.937024+00:00
+[2023-04-17 16:46:03,036] {logging_mixin.py:115} INFO - Foods df created.
+[2023-04-17 16:46:07,167] {local_task_job.py:156} INFO - Task exited with return code Negsignal.SIGKILL
+[2023-04-17 16:46:07,219] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=af_foods, task_id=transform, execution_date=20230417T154424, start_date=20230417T164533, end_date=20230417T164607
+[2023-04-17 16:46:07,262] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

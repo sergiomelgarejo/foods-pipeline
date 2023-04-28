@@ -1,0 +1,2058 @@
+[2023-04-12 16:04:57,464] {processor.py:153} INFO - Started process (PID=181) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:04:57,465] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:04:57,466] {logging_mixin.py:115} INFO - [2023-04-12 16:04:57,466] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:04:57,495] {logging_mixin.py:115} INFO - [2023-04-12 16:04:57,493] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 11, in <module>
+    from datawarehouse import EtlObject
+ModuleNotFoundError: No module named 'datawarehouse'
+[2023-04-12 16:04:57,496] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:04:57,520] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.059 seconds
+[2023-04-12 16:05:27,643] {processor.py:153} INFO - Started process (PID=186) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:05:27,644] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:05:27,645] {logging_mixin.py:115} INFO - [2023-04-12 16:05:27,645] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:05:27,657] {logging_mixin.py:115} INFO - [2023-04-12 16:05:27,656] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 11, in <module>
+    from datawarehouse import EtlObject
+ModuleNotFoundError: No module named 'datawarehouse'
+[2023-04-12 16:05:27,658] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:05:27,684] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.046 seconds
+[2023-04-12 16:05:57,832] {processor.py:153} INFO - Started process (PID=191) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:05:57,834] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:05:57,835] {logging_mixin.py:115} INFO - [2023-04-12 16:05:57,835] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:05:57,846] {logging_mixin.py:115} INFO - [2023-04-12 16:05:57,844] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 11, in <module>
+    from datawarehouse import EtlObject
+ModuleNotFoundError: No module named 'datawarehouse'
+[2023-04-12 16:05:57,846] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:05:57,870] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.041 seconds
+[2023-04-12 16:06:27,995] {processor.py:153} INFO - Started process (PID=196) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:06:27,996] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:06:27,997] {logging_mixin.py:115} INFO - [2023-04-12 16:06:27,997] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:06:28,006] {logging_mixin.py:115} INFO - [2023-04-12 16:06:28,005] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 11, in <module>
+    from datawarehouse import EtlObject
+ModuleNotFoundError: No module named 'datawarehouse'
+[2023-04-12 16:06:28,007] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:06:28,029] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.037 seconds
+[2023-04-12 16:06:58,193] {processor.py:153} INFO - Started process (PID=201) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:06:58,195] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:06:58,196] {logging_mixin.py:115} INFO - [2023-04-12 16:06:58,196] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:06:58,211] {logging_mixin.py:115} INFO - [2023-04-12 16:06:58,209] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 11, in <module>
+    from datawarehouse import EtlObject
+ModuleNotFoundError: No module named 'datawarehouse'
+[2023-04-12 16:06:58,212] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:06:58,238] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.050 seconds
+[2023-04-12 16:07:28,394] {processor.py:153} INFO - Started process (PID=206) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:07:28,396] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:07:28,397] {logging_mixin.py:115} INFO - [2023-04-12 16:07:28,397] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:07:28,406] {logging_mixin.py:115} INFO - [2023-04-12 16:07:28,405] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 11, in <module>
+    from datawarehouse import EtlObject
+ModuleNotFoundError: No module named 'datawarehouse'
+[2023-04-12 16:07:28,407] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:07:28,431] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.040 seconds
+[2023-04-12 16:07:58,557] {processor.py:153} INFO - Started process (PID=211) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:07:58,559] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:07:58,559] {logging_mixin.py:115} INFO - [2023-04-12 16:07:58,559] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:07:58,570] {logging_mixin.py:115} INFO - [2023-04-12 16:07:58,569] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 11, in <module>
+    from datawarehouse import EtlObject
+ModuleNotFoundError: No module named 'datawarehouse'
+[2023-04-12 16:07:58,572] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:07:58,599] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.046 seconds
+[2023-04-12 16:08:28,771] {processor.py:153} INFO - Started process (PID=216) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:08:28,772] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:08:28,774] {logging_mixin.py:115} INFO - [2023-04-12 16:08:28,774] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:08:28,790] {logging_mixin.py:115} INFO - [2023-04-12 16:08:28,786] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 11, in <module>
+    from datawarehouse import EtlObject
+ModuleNotFoundError: No module named 'datawarehouse'
+[2023-04-12 16:08:28,791] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:08:28,818] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.052 seconds
+[2023-04-12 16:08:58,919] {processor.py:153} INFO - Started process (PID=221) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:08:58,921] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:08:58,922] {logging_mixin.py:115} INFO - [2023-04-12 16:08:58,922] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:08:58,934] {logging_mixin.py:115} INFO - [2023-04-12 16:08:58,932] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 11, in <module>
+    from datawarehouse import EtlObject
+ModuleNotFoundError: No module named 'datawarehouse'
+[2023-04-12 16:08:58,935] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:08:58,967] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.052 seconds
+[2023-04-12 16:09:29,143] {processor.py:153} INFO - Started process (PID=226) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:09:29,145] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:09:29,146] {logging_mixin.py:115} INFO - [2023-04-12 16:09:29,146] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:09:29,158] {logging_mixin.py:115} INFO - [2023-04-12 16:09:29,156] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 11, in <module>
+    from datawarehouse import EtlObject
+ModuleNotFoundError: No module named 'datawarehouse'
+[2023-04-12 16:09:29,159] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:09:29,183] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.044 seconds
+[2023-04-12 16:09:59,332] {processor.py:153} INFO - Started process (PID=231) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:09:59,335] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:09:59,337] {logging_mixin.py:115} INFO - [2023-04-12 16:09:59,337] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:09:59,351] {logging_mixin.py:115} INFO - [2023-04-12 16:09:59,349] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 11, in <module>
+    from datawarehouse import EtlObject
+ModuleNotFoundError: No module named 'datawarehouse'
+[2023-04-12 16:09:59,352] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:09:59,380] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.052 seconds
+[2023-04-12 16:10:29,490] {processor.py:153} INFO - Started process (PID=236) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:10:29,492] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:10:29,493] {logging_mixin.py:115} INFO - [2023-04-12 16:10:29,493] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:10:29,503] {logging_mixin.py:115} INFO - [2023-04-12 16:10:29,502] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 11, in <module>
+    from datawarehouse import EtlObject
+ModuleNotFoundError: No module named 'datawarehouse'
+[2023-04-12 16:10:29,504] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:10:29,531] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.045 seconds
+[2023-04-12 16:10:59,720] {processor.py:153} INFO - Started process (PID=241) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:10:59,722] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:10:59,723] {logging_mixin.py:115} INFO - [2023-04-12 16:10:59,723] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:10:59,733] {logging_mixin.py:115} INFO - [2023-04-12 16:10:59,732] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 11, in <module>
+    from datawarehouse import EtlObject
+ModuleNotFoundError: No module named 'datawarehouse'
+[2023-04-12 16:10:59,734] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:10:59,759] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.043 seconds
+[2023-04-12 16:11:29,896] {processor.py:153} INFO - Started process (PID=246) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:11:29,899] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:11:29,900] {logging_mixin.py:115} INFO - [2023-04-12 16:11:29,900] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:11:29,914] {logging_mixin.py:115} INFO - [2023-04-12 16:11:29,912] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 11, in <module>
+    from datawarehouse import EtlObject
+ModuleNotFoundError: No module named 'datawarehouse'
+[2023-04-12 16:11:29,915] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:11:29,943] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.052 seconds
+[2023-04-12 16:12:00,081] {processor.py:153} INFO - Started process (PID=251) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:12:00,083] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:12:00,084] {logging_mixin.py:115} INFO - [2023-04-12 16:12:00,083] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:12:00,093] {logging_mixin.py:115} INFO - [2023-04-12 16:12:00,092] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 11, in <module>
+    from datawarehouse import EtlObject
+ModuleNotFoundError: No module named 'datawarehouse'
+[2023-04-12 16:12:00,094] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:12:00,119] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.042 seconds
+[2023-04-12 16:12:30,267] {processor.py:153} INFO - Started process (PID=256) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:12:30,269] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:12:30,270] {logging_mixin.py:115} INFO - [2023-04-12 16:12:30,270] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:12:30,281] {logging_mixin.py:115} INFO - [2023-04-12 16:12:30,280] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 11, in <module>
+    from datawarehouse import EtlObject
+ModuleNotFoundError: No module named 'datawarehouse'
+[2023-04-12 16:12:30,282] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:12:30,310] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.046 seconds
+[2023-04-12 16:13:00,423] {processor.py:153} INFO - Started process (PID=261) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:13:00,426] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:13:00,427] {logging_mixin.py:115} INFO - [2023-04-12 16:13:00,427] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:13:00,439] {logging_mixin.py:115} INFO - [2023-04-12 16:13:00,437] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 11, in <module>
+    from datawarehouse import EtlObject
+ModuleNotFoundError: No module named 'datawarehouse'
+[2023-04-12 16:13:00,440] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:13:00,467] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.048 seconds
+[2023-04-12 16:13:27,638] {processor.py:153} INFO - Started process (PID=266) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:13:27,640] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:13:27,641] {logging_mixin.py:115} INFO - [2023-04-12 16:13:27,641] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:13:27,672] {logging_mixin.py:115} INFO - [2023-04-12 16:13:27,669] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:13:27,673] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:13:27,713] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.081 seconds
+[2023-04-12 16:13:57,815] {processor.py:153} INFO - Started process (PID=271) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:13:57,817] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:13:57,818] {logging_mixin.py:115} INFO - [2023-04-12 16:13:57,818] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:13:57,831] {logging_mixin.py:115} INFO - [2023-04-12 16:13:57,829] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:13:57,832] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:13:57,859] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.048 seconds
+[2023-04-12 16:14:28,057] {processor.py:153} INFO - Started process (PID=276) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:14:28,059] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:14:28,060] {logging_mixin.py:115} INFO - [2023-04-12 16:14:28,060] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:14:28,076] {logging_mixin.py:115} INFO - [2023-04-12 16:14:28,074] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:14:28,078] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:14:28,112] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.062 seconds
+[2023-04-12 16:14:58,237] {processor.py:153} INFO - Started process (PID=281) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:14:58,239] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:14:58,240] {logging_mixin.py:115} INFO - [2023-04-12 16:14:58,240] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:14:58,251] {logging_mixin.py:115} INFO - [2023-04-12 16:14:58,249] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:14:58,253] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:14:58,279] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.047 seconds
+[2023-04-12 16:15:28,433] {processor.py:153} INFO - Started process (PID=286) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:15:28,436] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:15:28,437] {logging_mixin.py:115} INFO - [2023-04-12 16:15:28,437] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:15:28,447] {logging_mixin.py:115} INFO - [2023-04-12 16:15:28,445] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:15:28,447] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:15:28,474] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.047 seconds
+[2023-04-12 16:15:58,620] {processor.py:153} INFO - Started process (PID=291) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:15:58,622] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:15:58,623] {logging_mixin.py:115} INFO - [2023-04-12 16:15:58,623] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:15:58,631] {logging_mixin.py:115} INFO - [2023-04-12 16:15:58,630] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:15:58,632] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:15:58,656] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.040 seconds
+[2023-04-12 16:16:28,806] {processor.py:153} INFO - Started process (PID=296) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:16:28,808] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:16:28,809] {logging_mixin.py:115} INFO - [2023-04-12 16:16:28,809] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:16:28,823] {logging_mixin.py:115} INFO - [2023-04-12 16:16:28,821] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:16:28,824] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:16:28,854] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.055 seconds
+[2023-04-12 16:16:59,002] {processor.py:153} INFO - Started process (PID=301) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:16:59,004] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:16:59,005] {logging_mixin.py:115} INFO - [2023-04-12 16:16:59,005] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:16:59,014] {logging_mixin.py:115} INFO - [2023-04-12 16:16:59,013] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:16:59,015] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:16:59,043] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.047 seconds
+[2023-04-12 16:17:29,215] {processor.py:153} INFO - Started process (PID=306) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:17:29,217] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:17:29,218] {logging_mixin.py:115} INFO - [2023-04-12 16:17:29,218] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:17:29,226] {logging_mixin.py:115} INFO - [2023-04-12 16:17:29,225] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:17:29,227] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:17:29,252] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.040 seconds
+[2023-04-12 16:17:59,407] {processor.py:153} INFO - Started process (PID=311) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:17:59,409] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:17:59,410] {logging_mixin.py:115} INFO - [2023-04-12 16:17:59,410] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:17:59,423] {logging_mixin.py:115} INFO - [2023-04-12 16:17:59,421] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:17:59,424] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:17:59,456] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.055 seconds
+[2023-04-12 16:18:29,566] {processor.py:153} INFO - Started process (PID=316) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:18:29,568] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:18:29,569] {logging_mixin.py:115} INFO - [2023-04-12 16:18:29,569] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:18:29,579] {logging_mixin.py:115} INFO - [2023-04-12 16:18:29,578] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:18:29,580] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:18:29,606] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.045 seconds
+[2023-04-12 16:18:59,801] {processor.py:153} INFO - Started process (PID=321) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:18:59,803] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:18:59,804] {logging_mixin.py:115} INFO - [2023-04-12 16:18:59,804] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:18:59,814] {logging_mixin.py:115} INFO - [2023-04-12 16:18:59,812] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:18:59,815] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:18:59,842] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.045 seconds
+[2023-04-12 16:19:30,023] {processor.py:153} INFO - Started process (PID=326) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:19:30,025] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:19:30,026] {logging_mixin.py:115} INFO - [2023-04-12 16:19:30,026] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:19:30,038] {logging_mixin.py:115} INFO - [2023-04-12 16:19:30,036] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:19:30,039] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:19:30,069] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.052 seconds
+[2023-04-12 16:20:00,237] {processor.py:153} INFO - Started process (PID=331) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:20:00,239] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:20:00,240] {logging_mixin.py:115} INFO - [2023-04-12 16:20:00,240] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:20:00,250] {logging_mixin.py:115} INFO - [2023-04-12 16:20:00,248] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:20:00,250] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:20:00,278] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.044 seconds
+[2023-04-12 16:20:30,415] {processor.py:153} INFO - Started process (PID=336) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:20:30,417] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:20:30,418] {logging_mixin.py:115} INFO - [2023-04-12 16:20:30,418] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:20:30,428] {logging_mixin.py:115} INFO - [2023-04-12 16:20:30,427] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:20:30,429] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:20:30,457] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.046 seconds
+[2023-04-12 16:21:00,624] {processor.py:153} INFO - Started process (PID=341) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:21:00,626] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:21:00,627] {logging_mixin.py:115} INFO - [2023-04-12 16:21:00,627] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:21:00,641] {logging_mixin.py:115} INFO - [2023-04-12 16:21:00,639] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:21:00,642] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:21:00,675] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.057 seconds
+[2023-04-12 16:21:30,799] {processor.py:153} INFO - Started process (PID=346) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:21:30,801] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:21:30,803] {logging_mixin.py:115} INFO - [2023-04-12 16:21:30,802] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:21:30,814] {logging_mixin.py:115} INFO - [2023-04-12 16:21:30,811] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:21:30,815] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:21:30,852] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.057 seconds
+[2023-04-12 16:22:01,016] {processor.py:153} INFO - Started process (PID=351) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:22:01,018] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:22:01,020] {logging_mixin.py:115} INFO - [2023-04-12 16:22:01,020] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:22:01,034] {logging_mixin.py:115} INFO - [2023-04-12 16:22:01,032] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:22:01,035] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:22:01,069] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.059 seconds
+[2023-04-12 16:22:31,193] {processor.py:153} INFO - Started process (PID=356) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:22:31,194] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:22:31,195] {logging_mixin.py:115} INFO - [2023-04-12 16:22:31,195] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:22:31,206] {logging_mixin.py:115} INFO - [2023-04-12 16:22:31,204] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:22:31,207] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:22:31,235] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.046 seconds
+[2023-04-12 16:23:01,381] {processor.py:153} INFO - Started process (PID=361) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:23:01,383] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:23:01,384] {logging_mixin.py:115} INFO - [2023-04-12 16:23:01,384] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:23:01,401] {logging_mixin.py:115} INFO - [2023-04-12 16:23:01,399] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:23:01,402] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:23:01,434] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.059 seconds
+[2023-04-12 16:23:31,540] {processor.py:153} INFO - Started process (PID=366) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:23:31,543] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:23:31,543] {logging_mixin.py:115} INFO - [2023-04-12 16:23:31,543] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:23:31,552] {logging_mixin.py:115} INFO - [2023-04-12 16:23:31,550] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:23:31,552] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:23:31,576] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.039 seconds
+[2023-04-12 16:24:01,756] {processor.py:153} INFO - Started process (PID=371) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:24:01,758] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:24:01,759] {logging_mixin.py:115} INFO - [2023-04-12 16:24:01,759] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:24:01,770] {logging_mixin.py:115} INFO - [2023-04-12 16:24:01,769] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:24:01,771] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:24:01,803] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.051 seconds
+[2023-04-12 16:24:31,950] {processor.py:153} INFO - Started process (PID=376) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:24:31,952] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:24:31,953] {logging_mixin.py:115} INFO - [2023-04-12 16:24:31,953] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:24:31,963] {logging_mixin.py:115} INFO - [2023-04-12 16:24:31,961] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:24:31,964] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:24:31,991] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.045 seconds
+[2023-04-12 16:25:02,176] {processor.py:153} INFO - Started process (PID=381) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:25:02,177] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:25:02,178] {logging_mixin.py:115} INFO - [2023-04-12 16:25:02,178] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:25:02,188] {logging_mixin.py:115} INFO - [2023-04-12 16:25:02,186] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:25:02,189] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:25:02,216] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.045 seconds
+[2023-04-12 16:25:32,422] {processor.py:153} INFO - Started process (PID=386) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:25:32,424] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:25:32,426] {logging_mixin.py:115} INFO - [2023-04-12 16:25:32,426] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:25:32,441] {logging_mixin.py:115} INFO - [2023-04-12 16:25:32,439] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:25:32,442] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:25:32,481] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.065 seconds
+[2023-04-12 16:26:02,614] {processor.py:153} INFO - Started process (PID=391) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:26:02,616] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:26:02,618] {logging_mixin.py:115} INFO - [2023-04-12 16:26:02,617] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:26:02,627] {logging_mixin.py:115} INFO - [2023-04-12 16:26:02,626] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:26:02,629] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:26:02,656] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.046 seconds
+[2023-04-12 16:26:32,879] {processor.py:153} INFO - Started process (PID=396) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:26:32,881] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:26:32,882] {logging_mixin.py:115} INFO - [2023-04-12 16:26:32,882] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:26:32,897] {logging_mixin.py:115} INFO - [2023-04-12 16:26:32,895] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:26:32,898] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:26:32,934] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.062 seconds
+[2023-04-12 16:27:03,065] {processor.py:153} INFO - Started process (PID=401) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:27:03,067] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:27:03,068] {logging_mixin.py:115} INFO - [2023-04-12 16:27:03,068] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:27:03,078] {logging_mixin.py:115} INFO - [2023-04-12 16:27:03,076] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:27:03,079] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:27:03,105] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.044 seconds
+[2023-04-12 16:27:33,275] {processor.py:153} INFO - Started process (PID=406) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:27:33,276] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:27:33,278] {logging_mixin.py:115} INFO - [2023-04-12 16:27:33,278] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:27:33,292] {logging_mixin.py:115} INFO - [2023-04-12 16:27:33,290] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:27:33,293] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:27:33,324] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.053 seconds
+[2023-04-12 16:28:03,453] {processor.py:153} INFO - Started process (PID=411) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:28:03,455] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:28:03,456] {logging_mixin.py:115} INFO - [2023-04-12 16:28:03,456] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:28:03,465] {logging_mixin.py:115} INFO - [2023-04-12 16:28:03,464] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:28:03,466] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:28:03,494] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.044 seconds
+[2023-04-12 16:28:33,704] {processor.py:153} INFO - Started process (PID=416) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:28:33,705] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:28:33,706] {logging_mixin.py:115} INFO - [2023-04-12 16:28:33,706] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:28:33,720] {logging_mixin.py:115} INFO - [2023-04-12 16:28:33,718] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:28:33,721] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:28:33,752] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.053 seconds
+[2023-04-12 16:29:03,927] {processor.py:153} INFO - Started process (PID=421) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:29:03,930] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:29:03,931] {logging_mixin.py:115} INFO - [2023-04-12 16:29:03,931] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:29:03,941] {logging_mixin.py:115} INFO - [2023-04-12 16:29:03,940] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:29:03,942] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:29:03,970] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.047 seconds
+[2023-04-12 16:29:34,103] {processor.py:153} INFO - Started process (PID=426) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:29:34,106] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:29:34,107] {logging_mixin.py:115} INFO - [2023-04-12 16:29:34,107] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:29:34,115] {logging_mixin.py:115} INFO - [2023-04-12 16:29:34,114] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:29:34,116] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:29:34,140] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.039 seconds
+[2023-04-12 16:30:04,384] {processor.py:153} INFO - Started process (PID=431) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:30:04,386] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:30:04,387] {logging_mixin.py:115} INFO - [2023-04-12 16:30:04,387] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:30:04,406] {logging_mixin.py:115} INFO - [2023-04-12 16:30:04,405] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:30:04,407] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:30:04,432] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.053 seconds
+[2023-04-12 16:30:34,567] {processor.py:153} INFO - Started process (PID=436) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:30:34,570] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:30:34,571] {logging_mixin.py:115} INFO - [2023-04-12 16:30:34,571] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:30:34,586] {logging_mixin.py:115} INFO - [2023-04-12 16:30:34,584] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:30:34,587] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:30:34,610] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.046 seconds
+[2023-04-12 16:31:04,792] {processor.py:153} INFO - Started process (PID=441) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:31:04,794] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:31:04,795] {logging_mixin.py:115} INFO - [2023-04-12 16:31:04,795] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:31:04,811] {logging_mixin.py:115} INFO - [2023-04-12 16:31:04,809] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:31:04,812] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:31:04,836] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.048 seconds
+[2023-04-12 16:31:34,993] {processor.py:153} INFO - Started process (PID=446) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:31:34,995] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:31:34,997] {logging_mixin.py:115} INFO - [2023-04-12 16:31:34,997] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:31:35,019] {logging_mixin.py:115} INFO - [2023-04-12 16:31:35,017] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:31:35,020] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:31:35,048] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.061 seconds
+[2023-04-12 16:32:05,200] {processor.py:153} INFO - Started process (PID=451) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:32:05,202] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:32:05,203] {logging_mixin.py:115} INFO - [2023-04-12 16:32:05,203] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:32:05,218] {logging_mixin.py:115} INFO - [2023-04-12 16:32:05,216] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:32:05,219] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:32:05,242] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.045 seconds
+[2023-04-12 16:32:35,383] {processor.py:153} INFO - Started process (PID=456) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:32:35,385] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:32:35,386] {logging_mixin.py:115} INFO - [2023-04-12 16:32:35,386] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:32:35,410] {logging_mixin.py:115} INFO - [2023-04-12 16:32:35,407] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:32:35,411] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:32:35,440] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.064 seconds
+[2023-04-12 16:33:05,565] {processor.py:153} INFO - Started process (PID=461) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:33:05,567] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:33:05,568] {logging_mixin.py:115} INFO - [2023-04-12 16:33:05,568] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:33:05,583] {logging_mixin.py:115} INFO - [2023-04-12 16:33:05,581] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:33:05,584] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:33:05,606] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.045 seconds
+[2023-04-12 16:33:35,779] {processor.py:153} INFO - Started process (PID=466) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:33:35,781] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:33:35,782] {logging_mixin.py:115} INFO - [2023-04-12 16:33:35,782] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:33:35,797] {logging_mixin.py:115} INFO - [2023-04-12 16:33:35,796] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:33:35,798] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:33:35,820] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.045 seconds
+[2023-04-12 16:34:05,969] {processor.py:153} INFO - Started process (PID=471) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:34:05,971] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:34:05,972] {logging_mixin.py:115} INFO - [2023-04-12 16:34:05,972] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:34:05,989] {logging_mixin.py:115} INFO - [2023-04-12 16:34:05,987] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:34:05,990] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:34:06,013] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.047 seconds
+[2023-04-12 16:34:36,191] {processor.py:153} INFO - Started process (PID=476) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:34:36,193] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:34:36,195] {logging_mixin.py:115} INFO - [2023-04-12 16:34:36,195] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:34:36,219] {logging_mixin.py:115} INFO - [2023-04-12 16:34:36,217] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:34:36,220] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:34:36,247] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.062 seconds
+[2023-04-12 16:35:06,383] {processor.py:153} INFO - Started process (PID=481) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:35:06,384] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:35:06,385] {logging_mixin.py:115} INFO - [2023-04-12 16:35:06,385] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:35:06,400] {logging_mixin.py:115} INFO - [2023-04-12 16:35:06,398] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:35:06,401] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:35:06,424] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.045 seconds
+[2023-04-12 16:35:36,598] {processor.py:153} INFO - Started process (PID=486) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:35:36,600] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:35:36,601] {logging_mixin.py:115} INFO - [2023-04-12 16:35:36,601] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:35:36,616] {logging_mixin.py:115} INFO - [2023-04-12 16:35:36,614] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:35:36,617] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:35:36,640] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.047 seconds
+[2023-04-12 16:36:06,779] {processor.py:153} INFO - Started process (PID=491) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:36:06,781] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:36:06,782] {logging_mixin.py:115} INFO - [2023-04-12 16:36:06,782] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:36:06,795] {logging_mixin.py:115} INFO - [2023-04-12 16:36:06,793] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:36:06,796] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:36:06,817] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.041 seconds
+[2023-04-12 16:36:36,964] {processor.py:153} INFO - Started process (PID=496) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:36:36,966] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:36:36,967] {logging_mixin.py:115} INFO - [2023-04-12 16:36:36,967] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:36:36,986] {logging_mixin.py:115} INFO - [2023-04-12 16:36:36,984] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:36:36,987] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:36:37,014] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.055 seconds
+[2023-04-12 16:37:07,133] {processor.py:153} INFO - Started process (PID=501) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:37:07,136] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:37:07,137] {logging_mixin.py:115} INFO - [2023-04-12 16:37:07,137] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:37:07,151] {logging_mixin.py:115} INFO - [2023-04-12 16:37:07,150] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:37:07,152] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:37:07,175] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.046 seconds
+[2023-04-12 16:37:37,338] {processor.py:153} INFO - Started process (PID=506) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:37:37,340] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:37:37,341] {logging_mixin.py:115} INFO - [2023-04-12 16:37:37,341] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:37:37,357] {logging_mixin.py:115} INFO - [2023-04-12 16:37:37,355] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:37:37,358] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:37:37,382] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.047 seconds
+[2023-04-12 16:38:07,548] {processor.py:153} INFO - Started process (PID=511) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:38:07,550] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:38:07,552] {logging_mixin.py:115} INFO - [2023-04-12 16:38:07,551] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:38:07,578] {logging_mixin.py:115} INFO - [2023-04-12 16:38:07,575] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:38:07,578] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:38:07,611] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.069 seconds
+[2023-04-12 16:38:37,763] {processor.py:153} INFO - Started process (PID=516) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:38:37,765] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:38:37,767] {logging_mixin.py:115} INFO - [2023-04-12 16:38:37,767] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:38:37,788] {logging_mixin.py:115} INFO - [2023-04-12 16:38:37,786] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:38:37,789] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:38:37,816] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.059 seconds
+[2023-04-12 16:39:07,976] {processor.py:153} INFO - Started process (PID=521) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:39:07,978] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:39:07,979] {logging_mixin.py:115} INFO - [2023-04-12 16:39:07,979] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:39:07,996] {logging_mixin.py:115} INFO - [2023-04-12 16:39:07,994] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:39:07,997] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:39:08,020] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.049 seconds
+[2023-04-12 16:39:38,173] {processor.py:153} INFO - Started process (PID=526) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:39:38,175] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:39:38,176] {logging_mixin.py:115} INFO - [2023-04-12 16:39:38,176] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:39:38,192] {logging_mixin.py:115} INFO - [2023-04-12 16:39:38,190] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:39:38,193] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:39:38,215] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.047 seconds
+[2023-04-12 16:40:08,353] {processor.py:153} INFO - Started process (PID=531) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:40:08,355] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:40:08,356] {logging_mixin.py:115} INFO - [2023-04-12 16:40:08,356] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:40:08,368] {logging_mixin.py:115} INFO - [2023-04-12 16:40:08,367] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:40:08,369] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:40:08,391] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.041 seconds
+[2023-04-12 16:40:38,588] {processor.py:153} INFO - Started process (PID=536) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:40:38,590] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:40:38,591] {logging_mixin.py:115} INFO - [2023-04-12 16:40:38,591] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:40:38,609] {logging_mixin.py:115} INFO - [2023-04-12 16:40:38,607] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:40:38,610] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:40:38,633] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.050 seconds
+[2023-04-12 16:41:08,762] {processor.py:153} INFO - Started process (PID=541) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:41:08,765] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:41:08,766] {logging_mixin.py:115} INFO - [2023-04-12 16:41:08,766] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:41:08,781] {logging_mixin.py:115} INFO - [2023-04-12 16:41:08,779] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:41:08,783] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:41:08,806] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.048 seconds
+[2023-04-12 16:41:38,967] {processor.py:153} INFO - Started process (PID=546) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:41:38,969] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:41:38,970] {logging_mixin.py:115} INFO - [2023-04-12 16:41:38,970] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:41:38,993] {logging_mixin.py:115} INFO - [2023-04-12 16:41:38,991] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:41:38,994] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:41:39,021] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.061 seconds
+[2023-04-12 16:42:09,153] {processor.py:153} INFO - Started process (PID=551) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:42:09,155] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:42:09,155] {logging_mixin.py:115} INFO - [2023-04-12 16:42:09,155] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:42:09,168] {logging_mixin.py:115} INFO - [2023-04-12 16:42:09,167] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:42:09,169] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:42:09,189] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.039 seconds
+[2023-04-12 16:42:39,336] {processor.py:153} INFO - Started process (PID=556) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:42:39,337] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:42:39,338] {logging_mixin.py:115} INFO - [2023-04-12 16:42:39,338] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:42:39,356] {logging_mixin.py:115} INFO - [2023-04-12 16:42:39,354] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:42:39,357] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:42:39,382] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.051 seconds
+[2023-04-12 16:43:09,517] {processor.py:153} INFO - Started process (PID=561) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:43:09,519] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:43:09,520] {logging_mixin.py:115} INFO - [2023-04-12 16:43:09,520] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:43:09,537] {logging_mixin.py:115} INFO - [2023-04-12 16:43:09,536] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:43:09,538] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:43:09,564] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.053 seconds
+[2023-04-12 16:43:39,738] {processor.py:153} INFO - Started process (PID=566) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:43:39,740] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:43:39,741] {logging_mixin.py:115} INFO - [2023-04-12 16:43:39,741] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:43:39,757] {logging_mixin.py:115} INFO - [2023-04-12 16:43:39,755] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:43:39,758] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:43:39,782] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.048 seconds
+[2023-04-12 16:44:09,955] {processor.py:153} INFO - Started process (PID=571) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:44:09,957] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:44:09,958] {logging_mixin.py:115} INFO - [2023-04-12 16:44:09,958] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:44:09,979] {logging_mixin.py:115} INFO - [2023-04-12 16:44:09,977] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:44:09,980] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:44:10,005] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.056 seconds
+[2023-04-12 16:44:40,143] {processor.py:153} INFO - Started process (PID=576) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:44:40,145] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:44:40,147] {logging_mixin.py:115} INFO - [2023-04-12 16:44:40,147] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:44:40,163] {logging_mixin.py:115} INFO - [2023-04-12 16:44:40,160] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:44:40,163] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:44:40,187] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.048 seconds
+[2023-04-12 16:45:10,425] {processor.py:153} INFO - Started process (PID=581) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:45:10,427] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:45:10,429] {logging_mixin.py:115} INFO - [2023-04-12 16:45:10,429] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:45:10,443] {logging_mixin.py:115} INFO - [2023-04-12 16:45:10,441] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:45:10,444] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:45:10,472] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.051 seconds
+[2023-04-12 16:45:40,605] {processor.py:153} INFO - Started process (PID=586) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:45:40,607] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:45:40,608] {logging_mixin.py:115} INFO - [2023-04-12 16:45:40,608] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:45:40,619] {logging_mixin.py:115} INFO - [2023-04-12 16:45:40,618] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:45:40,620] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:45:40,647] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.047 seconds
+[2023-04-12 16:46:10,814] {processor.py:153} INFO - Started process (PID=591) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:46:10,815] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:46:10,816] {logging_mixin.py:115} INFO - [2023-04-12 16:46:10,816] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:46:10,829] {logging_mixin.py:115} INFO - [2023-04-12 16:46:10,827] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:46:10,830] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:46:10,858] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.048 seconds
+[2023-04-12 16:46:41,023] {processor.py:153} INFO - Started process (PID=596) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:46:41,025] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:46:41,026] {logging_mixin.py:115} INFO - [2023-04-12 16:46:41,026] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:46:41,036] {logging_mixin.py:115} INFO - [2023-04-12 16:46:41,034] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:46:41,037] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:46:41,065] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.046 seconds
+[2023-04-12 16:47:11,219] {processor.py:153} INFO - Started process (PID=601) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:47:11,221] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:47:11,222] {logging_mixin.py:115} INFO - [2023-04-12 16:47:11,222] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:47:11,231] {logging_mixin.py:115} INFO - [2023-04-12 16:47:11,230] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:47:11,232] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:47:11,256] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.041 seconds
+[2023-04-12 16:47:41,424] {processor.py:153} INFO - Started process (PID=606) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:47:41,426] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:47:41,428] {logging_mixin.py:115} INFO - [2023-04-12 16:47:41,428] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:47:41,443] {logging_mixin.py:115} INFO - [2023-04-12 16:47:41,441] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:47:41,445] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:47:41,475] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.057 seconds
+[2023-04-12 16:48:11,601] {processor.py:153} INFO - Started process (PID=611) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:48:11,602] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:48:11,604] {logging_mixin.py:115} INFO - [2023-04-12 16:48:11,604] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:48:11,613] {logging_mixin.py:115} INFO - [2023-04-12 16:48:11,612] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:48:11,614] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:48:11,640] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.043 seconds
+[2023-04-12 16:48:41,797] {processor.py:153} INFO - Started process (PID=616) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:48:41,799] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:48:41,800] {logging_mixin.py:115} INFO - [2023-04-12 16:48:41,800] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:48:41,817] {logging_mixin.py:115} INFO - [2023-04-12 16:48:41,814] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:48:41,818] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:48:41,858] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.067 seconds
+[2023-04-12 16:49:11,979] {processor.py:153} INFO - Started process (PID=621) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:49:11,982] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:49:11,983] {logging_mixin.py:115} INFO - [2023-04-12 16:49:11,983] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:49:11,995] {logging_mixin.py:115} INFO - [2023-04-12 16:49:11,993] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:49:11,996] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:49:12,024] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.050 seconds
+[2023-04-12 16:49:42,236] {processor.py:153} INFO - Started process (PID=626) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:49:42,238] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:49:42,240] {logging_mixin.py:115} INFO - [2023-04-12 16:49:42,240] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:49:42,253] {logging_mixin.py:115} INFO - [2023-04-12 16:49:42,251] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:49:42,254] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:49:42,279] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.050 seconds
+[2023-04-12 16:50:12,419] {processor.py:153} INFO - Started process (PID=631) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:50:12,421] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:50:12,422] {logging_mixin.py:115} INFO - [2023-04-12 16:50:12,422] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:50:12,435] {logging_mixin.py:115} INFO - [2023-04-12 16:50:12,432] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:50:12,436] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:50:12,462] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.047 seconds
+[2023-04-12 16:50:42,619] {processor.py:153} INFO - Started process (PID=636) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:50:42,621] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:50:42,623] {logging_mixin.py:115} INFO - [2023-04-12 16:50:42,622] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:50:42,637] {logging_mixin.py:115} INFO - [2023-04-12 16:50:42,635] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:50:42,638] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:50:42,667] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.052 seconds
+[2023-04-12 16:51:12,816] {processor.py:153} INFO - Started process (PID=641) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:51:12,818] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:51:12,819] {logging_mixin.py:115} INFO - [2023-04-12 16:51:12,819] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:51:12,829] {logging_mixin.py:115} INFO - [2023-04-12 16:51:12,828] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:51:12,830] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:51:12,856] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.045 seconds
+[2023-04-12 16:51:43,030] {processor.py:153} INFO - Started process (PID=646) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:51:43,034] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:51:43,036] {logging_mixin.py:115} INFO - [2023-04-12 16:51:43,036] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:51:43,056] {logging_mixin.py:115} INFO - [2023-04-12 16:51:43,053] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:51:43,057] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:51:43,086] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.062 seconds
+[2023-04-12 16:52:13,233] {processor.py:153} INFO - Started process (PID=651) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:52:13,235] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:52:13,236] {logging_mixin.py:115} INFO - [2023-04-12 16:52:13,236] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:52:13,252] {logging_mixin.py:115} INFO - [2023-04-12 16:52:13,249] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:52:13,253] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:52:13,283] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.056 seconds
+[2023-04-12 16:52:43,424] {processor.py:153} INFO - Started process (PID=656) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:52:43,426] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:52:43,427] {logging_mixin.py:115} INFO - [2023-04-12 16:52:43,427] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:52:43,442] {logging_mixin.py:115} INFO - [2023-04-12 16:52:43,440] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:52:43,444] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:52:43,472] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.054 seconds
+[2023-04-12 16:53:13,633] {processor.py:153} INFO - Started process (PID=661) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:53:13,635] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:53:13,636] {logging_mixin.py:115} INFO - [2023-04-12 16:53:13,636] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:53:13,646] {logging_mixin.py:115} INFO - [2023-04-12 16:53:13,644] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:53:13,646] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:53:13,671] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.043 seconds
+[2023-04-12 16:53:43,828] {processor.py:153} INFO - Started process (PID=666) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:53:43,834] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:53:43,836] {logging_mixin.py:115} INFO - [2023-04-12 16:53:43,836] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:53:43,850] {logging_mixin.py:115} INFO - [2023-04-12 16:53:43,848] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:53:43,851] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:53:43,878] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.057 seconds
+[2023-04-12 16:54:14,030] {processor.py:153} INFO - Started process (PID=671) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:54:14,031] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:54:14,032] {logging_mixin.py:115} INFO - [2023-04-12 16:54:14,032] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:54:14,045] {logging_mixin.py:115} INFO - [2023-04-12 16:54:14,043] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:54:14,046] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:54:14,074] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.049 seconds
+[2023-04-12 16:54:44,228] {processor.py:153} INFO - Started process (PID=676) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:54:44,230] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:54:44,232] {logging_mixin.py:115} INFO - [2023-04-12 16:54:44,231] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:54:44,242] {logging_mixin.py:115} INFO - [2023-04-12 16:54:44,240] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:54:44,243] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:54:44,268] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.045 seconds
+[2023-04-12 16:55:14,452] {processor.py:153} INFO - Started process (PID=681) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:55:14,454] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:55:14,455] {logging_mixin.py:115} INFO - [2023-04-12 16:55:14,455] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:55:14,470] {logging_mixin.py:115} INFO - [2023-04-12 16:55:14,468] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:55:14,471] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:55:14,499] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.051 seconds
+[2023-04-12 16:55:44,653] {processor.py:153} INFO - Started process (PID=686) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:55:44,655] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:55:44,657] {logging_mixin.py:115} INFO - [2023-04-12 16:55:44,657] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:55:44,671] {logging_mixin.py:115} INFO - [2023-04-12 16:55:44,669] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:55:44,672] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:55:44,702] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.055 seconds
+[2023-04-12 16:56:14,851] {processor.py:153} INFO - Started process (PID=691) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:56:14,854] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:56:14,855] {logging_mixin.py:115} INFO - [2023-04-12 16:56:14,854] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:56:14,865] {logging_mixin.py:115} INFO - [2023-04-12 16:56:14,863] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:56:14,867] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:56:14,894] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.048 seconds
+[2023-04-12 16:56:45,057] {processor.py:153} INFO - Started process (PID=696) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:56:45,059] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:56:45,061] {logging_mixin.py:115} INFO - [2023-04-12 16:56:45,061] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:56:45,074] {logging_mixin.py:115} INFO - [2023-04-12 16:56:45,072] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:56:45,074] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:56:45,100] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.046 seconds
+[2023-04-12 16:57:15,269] {processor.py:153} INFO - Started process (PID=701) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:57:15,271] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:57:15,272] {logging_mixin.py:115} INFO - [2023-04-12 16:57:15,272] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:57:15,283] {logging_mixin.py:115} INFO - [2023-04-12 16:57:15,282] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:57:15,284] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:57:15,311] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.048 seconds
+[2023-04-12 16:57:45,453] {processor.py:153} INFO - Started process (PID=706) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:57:45,455] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:57:45,456] {logging_mixin.py:115} INFO - [2023-04-12 16:57:45,456] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:57:45,470] {logging_mixin.py:115} INFO - [2023-04-12 16:57:45,469] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:57:45,472] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:57:45,525] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.076 seconds
+[2023-04-12 16:58:15,644] {processor.py:153} INFO - Started process (PID=711) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:58:15,645] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:58:15,646] {logging_mixin.py:115} INFO - [2023-04-12 16:58:15,646] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:58:15,658] {logging_mixin.py:115} INFO - [2023-04-12 16:58:15,656] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:58:15,659] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:58:15,684] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.045 seconds
+[2023-04-12 16:58:45,849] {processor.py:153} INFO - Started process (PID=716) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:58:45,851] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:58:45,852] {logging_mixin.py:115} INFO - [2023-04-12 16:58:45,852] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:58:45,865] {logging_mixin.py:115} INFO - [2023-04-12 16:58:45,863] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:58:45,866] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:58:45,891] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.046 seconds
+[2023-04-12 16:59:16,013] {processor.py:153} INFO - Started process (PID=721) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:59:16,014] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:59:16,015] {logging_mixin.py:115} INFO - [2023-04-12 16:59:16,015] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:59:16,025] {logging_mixin.py:115} INFO - [2023-04-12 16:59:16,024] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:59:16,027] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:59:16,053] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.045 seconds
+[2023-04-12 16:59:46,208] {processor.py:153} INFO - Started process (PID=726) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 16:59:46,210] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 16:59:46,211] {logging_mixin.py:115} INFO - [2023-04-12 16:59:46,211] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:59:46,226] {logging_mixin.py:115} INFO - [2023-04-12 16:59:46,224] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 16:59:46,226] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 16:59:46,255] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.052 seconds
+[2023-04-12 17:00:16,545] {processor.py:153} INFO - Started process (PID=731) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 17:00:16,548] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 17:00:16,554] {logging_mixin.py:115} INFO - [2023-04-12 17:00:16,554] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:00:16,594] {logging_mixin.py:115} INFO - [2023-04-12 17:00:16,590] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 17:00:16,596] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:00:16,665] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.149 seconds
+[2023-04-12 17:00:46,889] {processor.py:153} INFO - Started process (PID=736) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 17:00:46,891] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 17:00:46,892] {logging_mixin.py:115} INFO - [2023-04-12 17:00:46,892] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:00:46,904] {logging_mixin.py:115} INFO - [2023-04-12 17:00:46,902] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 17:00:46,904] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:00:46,928] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.043 seconds
+[2023-04-12 17:01:17,178] {processor.py:153} INFO - Started process (PID=741) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 17:01:17,180] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 17:01:17,182] {logging_mixin.py:115} INFO - [2023-04-12 17:01:17,181] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:01:17,199] {logging_mixin.py:115} INFO - [2023-04-12 17:01:17,197] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 17:01:17,200] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:01:17,232] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.062 seconds
+[2023-04-12 17:01:47,299] {processor.py:153} INFO - Started process (PID=746) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 17:01:47,301] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 17:01:47,302] {logging_mixin.py:115} INFO - [2023-04-12 17:01:47,302] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:01:47,312] {logging_mixin.py:115} INFO - [2023-04-12 17:01:47,310] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 17:01:47,313] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:01:47,337] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.042 seconds
+[2023-04-12 17:02:17,477] {processor.py:153} INFO - Started process (PID=751) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 17:02:17,478] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 17:02:17,480] {logging_mixin.py:115} INFO - [2023-04-12 17:02:17,480] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:02:17,490] {logging_mixin.py:115} INFO - [2023-04-12 17:02:17,488] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 17:02:17,491] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:02:17,512] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.038 seconds
+[2023-04-12 17:02:47,678] {processor.py:153} INFO - Started process (PID=756) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 17:02:47,680] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 17:02:47,682] {logging_mixin.py:115} INFO - [2023-04-12 17:02:47,682] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:02:47,698] {logging_mixin.py:115} INFO - [2023-04-12 17:02:47,696] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 17:02:47,699] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:02:47,728] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.056 seconds
+[2023-04-12 17:03:17,856] {processor.py:153} INFO - Started process (PID=761) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 17:03:17,858] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 17:03:17,859] {logging_mixin.py:115} INFO - [2023-04-12 17:03:17,859] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:03:17,870] {logging_mixin.py:115} INFO - [2023-04-12 17:03:17,868] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 17:03:17,871] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:03:17,894] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.042 seconds
+[2023-04-12 17:03:48,043] {processor.py:153} INFO - Started process (PID=766) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 17:03:48,044] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 17:03:48,046] {logging_mixin.py:115} INFO - [2023-04-12 17:03:48,046] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:03:48,055] {logging_mixin.py:115} INFO - [2023-04-12 17:03:48,054] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 17:03:48,056] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:03:48,078] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.039 seconds
+[2023-04-12 17:04:18,216] {processor.py:153} INFO - Started process (PID=771) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 17:04:18,217] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 17:04:18,218] {logging_mixin.py:115} INFO - [2023-04-12 17:04:18,218] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:04:18,228] {logging_mixin.py:115} INFO - [2023-04-12 17:04:18,227] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 17:04:18,229] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:04:18,253] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.041 seconds
+[2023-04-12 17:04:48,395] {processor.py:153} INFO - Started process (PID=776) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 17:04:48,396] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 17:04:48,397] {logging_mixin.py:115} INFO - [2023-04-12 17:04:48,397] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:04:48,408] {logging_mixin.py:115} INFO - [2023-04-12 17:04:48,406] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 17:04:48,409] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:04:48,433] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.043 seconds
+[2023-04-12 17:05:18,594] {processor.py:153} INFO - Started process (PID=781) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 17:05:18,597] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 17:05:18,598] {logging_mixin.py:115} INFO - [2023-04-12 17:05:18,598] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:05:18,614] {logging_mixin.py:115} INFO - [2023-04-12 17:05:18,612] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 17:05:18,615] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:05:18,647] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.058 seconds
+[2023-04-12 17:05:48,800] {processor.py:153} INFO - Started process (PID=786) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 17:05:48,801] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 17:05:48,802] {logging_mixin.py:115} INFO - [2023-04-12 17:05:48,802] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:05:48,813] {logging_mixin.py:115} INFO - [2023-04-12 17:05:48,812] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 17:05:48,814] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:05:48,837] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.041 seconds
+[2023-04-12 17:06:18,961] {processor.py:153} INFO - Started process (PID=791) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 17:06:18,962] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 17:06:18,963] {logging_mixin.py:115} INFO - [2023-04-12 17:06:18,963] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:06:18,974] {logging_mixin.py:115} INFO - [2023-04-12 17:06:18,973] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 17:06:18,975] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:06:19,001] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.044 seconds
+[2023-04-12 17:06:49,170] {processor.py:153} INFO - Started process (PID=796) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 17:06:49,171] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 17:06:49,172] {logging_mixin.py:115} INFO - [2023-04-12 17:06:49,172] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:06:49,182] {logging_mixin.py:115} INFO - [2023-04-12 17:06:49,181] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 17:06:49,183] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:06:49,207] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.041 seconds
+[2023-04-12 17:07:19,323] {processor.py:153} INFO - Started process (PID=801) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 17:07:19,324] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 17:07:19,325] {logging_mixin.py:115} INFO - [2023-04-12 17:07:19,325] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:07:19,338] {logging_mixin.py:115} INFO - [2023-04-12 17:07:19,337] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 17:07:19,339] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:07:19,366] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.048 seconds
+[2023-04-12 17:07:49,488] {processor.py:153} INFO - Started process (PID=806) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 17:07:49,490] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 17:07:49,491] {logging_mixin.py:115} INFO - [2023-04-12 17:07:49,491] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:07:49,500] {logging_mixin.py:115} INFO - [2023-04-12 17:07:49,499] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 17:07:49,501] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:07:49,522] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.038 seconds
+[2023-04-12 17:08:19,655] {processor.py:153} INFO - Started process (PID=811) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 17:08:19,657] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 17:08:19,658] {logging_mixin.py:115} INFO - [2023-04-12 17:08:19,658] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:08:19,669] {logging_mixin.py:115} INFO - [2023-04-12 17:08:19,667] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 17:08:19,670] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:08:19,694] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.043 seconds
+[2023-04-12 17:08:49,869] {processor.py:153} INFO - Started process (PID=816) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 17:08:49,871] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 17:08:49,872] {logging_mixin.py:115} INFO - [2023-04-12 17:08:49,872] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:08:49,883] {logging_mixin.py:115} INFO - [2023-04-12 17:08:49,882] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 17:08:49,884] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:08:49,908] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.043 seconds
+[2023-04-12 17:09:20,046] {processor.py:153} INFO - Started process (PID=821) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 17:09:20,047] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 17:09:20,049] {logging_mixin.py:115} INFO - [2023-04-12 17:09:20,049] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:09:20,064] {logging_mixin.py:115} INFO - [2023-04-12 17:09:20,062] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 17:09:20,065] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:09:20,095] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.055 seconds
+[2023-04-12 17:09:50,256] {processor.py:153} INFO - Started process (PID=826) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 17:09:50,257] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 17:09:50,259] {logging_mixin.py:115} INFO - [2023-04-12 17:09:50,258] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:09:50,269] {logging_mixin.py:115} INFO - [2023-04-12 17:09:50,268] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 17:09:50,270] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:09:50,292] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.040 seconds
+[2023-04-12 17:10:20,443] {processor.py:153} INFO - Started process (PID=831) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 17:10:20,445] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 17:10:20,446] {logging_mixin.py:115} INFO - [2023-04-12 17:10:20,446] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:10:20,456] {logging_mixin.py:115} INFO - [2023-04-12 17:10:20,454] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 17:10:20,457] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:10:20,481] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.042 seconds
+[2023-04-12 17:10:50,625] {processor.py:153} INFO - Started process (PID=836) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 17:10:50,627] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 17:10:50,628] {logging_mixin.py:115} INFO - [2023-04-12 17:10:50,628] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:10:50,644] {logging_mixin.py:115} INFO - [2023-04-12 17:10:50,642] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 17:10:50,645] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:10:50,673] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.054 seconds
+[2023-04-12 17:11:20,799] {processor.py:153} INFO - Started process (PID=841) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 17:11:20,802] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 17:11:20,804] {logging_mixin.py:115} INFO - [2023-04-12 17:11:20,804] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:11:20,815] {logging_mixin.py:115} INFO - [2023-04-12 17:11:20,813] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 17:11:20,815] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:11:20,837] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.041 seconds
+[2023-04-12 17:11:50,983] {processor.py:153} INFO - Started process (PID=846) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 17:11:50,985] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 17:11:50,986] {logging_mixin.py:115} INFO - [2023-04-12 17:11:50,986] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:11:50,996] {logging_mixin.py:115} INFO - [2023-04-12 17:11:50,995] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 17:11:50,997] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:11:51,020] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.042 seconds
+[2023-04-12 17:12:21,193] {processor.py:153} INFO - Started process (PID=851) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 17:12:21,194] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 17:12:21,196] {logging_mixin.py:115} INFO - [2023-04-12 17:12:21,196] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:12:21,211] {logging_mixin.py:115} INFO - [2023-04-12 17:12:21,209] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 17:12:21,212] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:12:21,250] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.063 seconds
+[2023-04-12 17:12:51,376] {processor.py:153} INFO - Started process (PID=856) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 17:12:51,378] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 17:12:51,379] {logging_mixin.py:115} INFO - [2023-04-12 17:12:51,379] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:12:51,390] {logging_mixin.py:115} INFO - [2023-04-12 17:12:51,388] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 17:12:51,391] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:12:51,415] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.044 seconds
+[2023-04-12 17:13:21,617] {processor.py:153} INFO - Started process (PID=861) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 17:13:21,620] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 17:13:21,621] {logging_mixin.py:115} INFO - [2023-04-12 17:13:21,621] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:13:21,653] {logging_mixin.py:115} INFO - [2023-04-12 17:13:21,651] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 17:13:21,654] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:13:21,690] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.121 seconds
+[2023-04-12 17:13:51,760] {processor.py:153} INFO - Started process (PID=866) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 17:13:51,762] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 17:13:51,763] {logging_mixin.py:115} INFO - [2023-04-12 17:13:51,763] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:13:51,774] {logging_mixin.py:115} INFO - [2023-04-12 17:13:51,773] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 17:13:51,775] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:13:51,799] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.044 seconds
+[2023-04-12 17:14:21,964] {processor.py:153} INFO - Started process (PID=871) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 17:14:21,967] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 17:14:21,968] {logging_mixin.py:115} INFO - [2023-04-12 17:14:21,968] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:14:21,985] {logging_mixin.py:115} INFO - [2023-04-12 17:14:21,983] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 17:14:21,986] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:14:22,016] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.058 seconds
+[2023-04-12 17:14:52,142] {processor.py:153} INFO - Started process (PID=876) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 17:14:52,143] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 17:14:52,144] {logging_mixin.py:115} INFO - [2023-04-12 17:14:52,144] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:14:52,155] {logging_mixin.py:115} INFO - [2023-04-12 17:14:52,153] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 17:14:52,156] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:14:52,178] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.040 seconds
+[2023-04-12 17:15:22,401] {processor.py:153} INFO - Started process (PID=881) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 17:15:22,403] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 17:15:22,404] {logging_mixin.py:115} INFO - [2023-04-12 17:15:22,404] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:15:22,419] {logging_mixin.py:115} INFO - [2023-04-12 17:15:22,417] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 17:15:22,420] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:15:22,452] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.058 seconds
+[2023-04-12 17:15:52,583] {processor.py:153} INFO - Started process (PID=886) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 17:15:52,585] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 17:15:52,587] {logging_mixin.py:115} INFO - [2023-04-12 17:15:52,586] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:15:52,601] {logging_mixin.py:115} INFO - [2023-04-12 17:15:52,599] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 17:15:52,602] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:15:52,634] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.056 seconds
+[2023-04-12 17:16:22,766] {processor.py:153} INFO - Started process (PID=891) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 17:16:22,768] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 17:16:22,770] {logging_mixin.py:115} INFO - [2023-04-12 17:16:22,770] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:16:22,787] {logging_mixin.py:115} INFO - [2023-04-12 17:16:22,785] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 17:16:22,788] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:16:22,814] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.053 seconds
+[2023-04-12 17:16:52,945] {processor.py:153} INFO - Started process (PID=896) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 17:16:52,947] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 17:16:52,948] {logging_mixin.py:115} INFO - [2023-04-12 17:16:52,948] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:16:52,967] {logging_mixin.py:115} INFO - [2023-04-12 17:16:52,965] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 17:16:52,968] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:16:52,999] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.059 seconds
+[2023-04-12 17:17:23,158] {processor.py:153} INFO - Started process (PID=901) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 17:17:23,160] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 17:17:23,161] {logging_mixin.py:115} INFO - [2023-04-12 17:17:23,161] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:17:23,171] {logging_mixin.py:115} INFO - [2023-04-12 17:17:23,169] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 17:17:23,171] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:17:23,196] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.043 seconds
+[2023-04-12 17:17:53,325] {processor.py:153} INFO - Started process (PID=906) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 17:17:53,326] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 17:17:53,328] {logging_mixin.py:115} INFO - [2023-04-12 17:17:53,327] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:17:53,340] {logging_mixin.py:115} INFO - [2023-04-12 17:17:53,339] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 17:17:53,342] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:17:53,382] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.063 seconds
+[2023-04-12 17:18:23,546] {processor.py:153} INFO - Started process (PID=911) to work on /opt/airflow/dags/af_foods.py
+[2023-04-12 17:18:23,551] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-12 17:18:23,556] {logging_mixin.py:115} INFO - [2023-04-12 17:18:23,556] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:18:23,577] {logging_mixin.py:115} INFO - [2023-04-12 17:18:23,574] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/af_foods.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/af_foods.py", line 10, in <module>
+    from data.etl import *
+ModuleNotFoundError: No module named 'data'
+[2023-04-12 17:18:23,579] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-12 17:18:23,617] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.078 seconds

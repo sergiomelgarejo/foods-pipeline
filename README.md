@@ -1,8 +1,13 @@
-## ETL with Python, Docker, PostgreSQL and Airflow
+## ETL pipeline of the USDA FoodData API with Python, PostgreSQL, Airflow and Docker Compose.
 
-![image](https://drive.google.com/uc?export=view&id=1NUq9DSFlOy5XOurspumIWlpN_pz65V7u)
+![image](https://drive.google.com/uc?export=view&id=1id7Bcieu9Bjt89Sz8eBxfUa0iFqkArIG)
 
-There are a lot of different tools and frameworks that are used to build ETL pipelines. In this repo I will build an ETL using Python, [Docker](https://www.docker.com/), [PostgreSQL](https://www.postgresql.org/) and [Airflow](https://airflow.apache.org/) tools.
+USDA’s Economic Research Service (ERS) is making data from USDA’s Agricultural Resource Management Survey (ARMS) available through an Application Programming Interface (API) to better serve customers. The data in the API are available in JSON format and provide attribute-based querying.
+In this case I am going to use Python's [requests](https://pypi.org/project/requests/) module to fetch the data for the ETL process.
+
+
+### Pre-requisites:
+1. Register to get the ERS API key on [https://www.ers.usda.gov/developer/data-apis/#apiForm]
   
 
 ### Setup the environment:
@@ -54,6 +59,11 @@ _AIRFLOW_WWW_USER_PASSWORD=airflow
 
 2. Aditionally, set the **required** environment variables for the database and the Docker volumes:
 
+- API key:
+
+`USDA_API_KEY`
+
+
 - ETL database:
 
 `_POSTGRES_DB`
@@ -71,22 +81,12 @@ _AIRFLOW_WWW_USER_PASSWORD=airflow
 
 `PG_DATA`
 
-`JUPYTER_NOTEBOOKS`
-
   
-#### Postgresql and jupyter
+#### Postgresql
 
 1. ``$ docker network create etl_network``
 
-2. ``$ docker build -f jupyter-dockerfile .``
-
-3. ``$ docker-compose --env-file ./.env -f ./postgres-docker-compose.yaml up -d``
-
-4. ``$ docker ps`` to get the jupyter container ID.
-
-5. ``$ docker logs jupyter_notebook`` to get the link with the auth token.
-
-6. open jupyter lab on your browser.
+2. ``$ docker-compose --env-file ./.env -f ./postgres-docker-compose.yaml up -d``
 
 
 #### Airflow
@@ -95,6 +95,19 @@ _AIRFLOW_WWW_USER_PASSWORD=airflow
 
 2. ``$ docker-compose -f airflow-docker-compose.yaml up -d``
 
+
+#### Airflow Webserver
+
+1. Go to [http://localhost:8080/] and login with the default Airflow credentials:
+
+```
+Username: airflow
+Password: airflow
+```
+
+2. In the DAGs list you will see a DAG called *af_foods.py* with the graph as shown below:
+
+![image](https://drive.google.com/uc?export=view&id=182_LUg_GEdE5CM3muXZNDkteB7RQn1HT)
 
 #### Clean Up
 

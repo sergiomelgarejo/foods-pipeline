@@ -1,0 +1,23 @@
+[2023-04-17 15:36:54,562] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: af_foods.transform manual__2023-04-17T15:36:25.226339+00:00 [queued]>
+[2023-04-17 15:36:54,566] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: af_foods.transform manual__2023-04-17T15:36:25.226339+00:00 [queued]>
+[2023-04-17 15:36:54,567] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-17 15:36:54,567] {taskinstance.py:1357} INFO - Starting attempt 1 of 2
+[2023-04-17 15:36:54,568] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-17 15:36:54,574] {taskinstance.py:1377} INFO - Executing <Task(_PythonDecoratedOperator): transform> on 2023-04-17 15:36:25.226339+00:00
+[2023-04-17 15:36:54,577] {standard_task_runner.py:52} INFO - Started process 217 to run task
+[2023-04-17 15:36:54,580] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'af_foods', 'transform', 'manual__2023-04-17T15:36:25.226339+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/af_foods.py', '--cfg-path', '/tmp/tmpvix_move', '--error-file', '/tmp/tmpy9mgtxoh']
+[2023-04-17 15:36:54,581] {standard_task_runner.py:80} INFO - Job 3: Subtask transform
+[2023-04-17 15:36:54,618] {task_command.py:369} INFO - Running <TaskInstance: af_foods.transform manual__2023-04-17T15:36:25.226339+00:00 [running]> on host 2c899337eeb0
+[2023-04-17 15:36:55,734] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=me
+AIRFLOW_CTX_DAG_ID=af_foods
+AIRFLOW_CTX_TASK_ID=transform
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-17T15:36:25.226339+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-04-17T15:36:25.226339+00:00
+[2023-04-17 15:37:22,921] {logging_mixin.py:115} INFO - Foods df created.
+[2023-04-17 15:37:26,229] {local_task_job.py:156} INFO - Task exited with return code Negsignal.SIGKILL
+[2023-04-17 15:37:26,325] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=af_foods, task_id=transform, execution_date=20230417T153625, start_date=20230417T153654, end_date=20230417T153726
+[2023-04-17 15:37:26,411] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

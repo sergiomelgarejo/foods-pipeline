@@ -1,0 +1,284 @@
+[2023-04-28 16:19:29,652] {processor.py:153} INFO - Started process (PID=180) to work on /opt/airflow/dags/af_foods.py
+[2023-04-28 16:19:29,654] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-28 16:19:29,656] {logging_mixin.py:115} INFO - [2023-04-28 16:19:29,655] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:19:30,203] {processor.py:651} INFO - DAG(s) dict_keys(['af_foods']) retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:19:30,342] {logging_mixin.py:115} INFO - [2023-04-28 16:19:30,342] {manager.py:508} INFO - Created Permission View: can delete on DAG:af_foods
+[2023-04-28 16:19:30,364] {logging_mixin.py:115} INFO - [2023-04-28 16:19:30,363] {manager.py:508} INFO - Created Permission View: can edit on DAG:af_foods
+[2023-04-28 16:19:30,375] {logging_mixin.py:115} INFO - [2023-04-28 16:19:30,375] {manager.py:508} INFO - Created Permission View: can read on DAG:af_foods
+[2023-04-28 16:19:30,377] {logging_mixin.py:115} INFO - [2023-04-28 16:19:30,377] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-04-28 16:19:30,391] {logging_mixin.py:115} INFO - [2023-04-28 16:19:30,391] {dag.py:2390} INFO - Creating ORM DAG for af_foods
+[2023-04-28 16:19:30,413] {logging_mixin.py:115} INFO - [2023-04-28 16:19:30,412] {dag.py:2919} INFO - Setting next_dagrun for af_foods to None, run_after=None
+[2023-04-28 16:19:30,435] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.794 seconds
+[2023-04-28 16:20:00,673] {processor.py:153} INFO - Started process (PID=186) to work on /opt/airflow/dags/af_foods.py
+[2023-04-28 16:20:00,675] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-28 16:20:00,677] {logging_mixin.py:115} INFO - [2023-04-28 16:20:00,677] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:20:01,182] {processor.py:651} INFO - DAG(s) dict_keys(['af_foods']) retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:20:01,235] {logging_mixin.py:115} INFO - [2023-04-28 16:20:01,235] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-04-28 16:20:01,250] {logging_mixin.py:115} INFO - [2023-04-28 16:20:01,250] {dag.py:2919} INFO - Setting next_dagrun for af_foods to None, run_after=None
+[2023-04-28 16:20:01,259] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.593 seconds
+[2023-04-28 16:20:31,480] {processor.py:153} INFO - Started process (PID=192) to work on /opt/airflow/dags/af_foods.py
+[2023-04-28 16:20:31,482] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-28 16:20:31,483] {logging_mixin.py:115} INFO - [2023-04-28 16:20:31,483] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:20:31,791] {processor.py:651} INFO - DAG(s) dict_keys(['af_foods']) retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:20:31,840] {logging_mixin.py:115} INFO - [2023-04-28 16:20:31,840] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-04-28 16:20:31,855] {logging_mixin.py:115} INFO - [2023-04-28 16:20:31,855] {dag.py:2919} INFO - Setting next_dagrun for af_foods to None, run_after=None
+[2023-04-28 16:20:31,865] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.392 seconds
+[2023-04-28 16:21:02,078] {processor.py:153} INFO - Started process (PID=198) to work on /opt/airflow/dags/af_foods.py
+[2023-04-28 16:21:02,080] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-28 16:21:02,082] {logging_mixin.py:115} INFO - [2023-04-28 16:21:02,082] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:21:02,508] {processor.py:651} INFO - DAG(s) dict_keys(['af_foods']) retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:21:02,556] {logging_mixin.py:115} INFO - [2023-04-28 16:21:02,556] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-04-28 16:21:02,570] {logging_mixin.py:115} INFO - [2023-04-28 16:21:02,570] {dag.py:2919} INFO - Setting next_dagrun for af_foods to None, run_after=None
+[2023-04-28 16:21:02,580] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.515 seconds
+[2023-04-28 16:21:33,627] {processor.py:153} INFO - Started process (PID=204) to work on /opt/airflow/dags/af_foods.py
+[2023-04-28 16:21:33,629] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-28 16:21:33,630] {logging_mixin.py:115} INFO - [2023-04-28 16:21:33,630] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:21:34,087] {processor.py:651} INFO - DAG(s) dict_keys(['af_foods']) retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:21:34,136] {logging_mixin.py:115} INFO - [2023-04-28 16:21:34,135] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-04-28 16:21:34,151] {logging_mixin.py:115} INFO - [2023-04-28 16:21:34,151] {dag.py:2919} INFO - Setting next_dagrun for af_foods to None, run_after=None
+[2023-04-28 16:21:34,160] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.540 seconds
+[2023-04-28 16:22:04,403] {processor.py:153} INFO - Started process (PID=210) to work on /opt/airflow/dags/af_foods.py
+[2023-04-28 16:22:04,405] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-28 16:22:04,406] {logging_mixin.py:115} INFO - [2023-04-28 16:22:04,406] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:22:04,707] {processor.py:651} INFO - DAG(s) dict_keys(['af_foods']) retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:22:04,754] {logging_mixin.py:115} INFO - [2023-04-28 16:22:04,754] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-04-28 16:22:04,769] {logging_mixin.py:115} INFO - [2023-04-28 16:22:04,769] {dag.py:2919} INFO - Setting next_dagrun for af_foods to None, run_after=None
+[2023-04-28 16:22:04,778] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.381 seconds
+[2023-04-28 16:22:34,962] {processor.py:153} INFO - Started process (PID=216) to work on /opt/airflow/dags/af_foods.py
+[2023-04-28 16:22:34,964] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-28 16:22:34,965] {logging_mixin.py:115} INFO - [2023-04-28 16:22:34,965] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:22:35,259] {processor.py:651} INFO - DAG(s) dict_keys(['af_foods']) retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:22:35,305] {logging_mixin.py:115} INFO - [2023-04-28 16:22:35,305] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-04-28 16:22:35,320] {logging_mixin.py:115} INFO - [2023-04-28 16:22:35,320] {dag.py:2919} INFO - Setting next_dagrun for af_foods to None, run_after=None
+[2023-04-28 16:22:35,330] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.373 seconds
+[2023-04-28 16:23:05,530] {processor.py:153} INFO - Started process (PID=222) to work on /opt/airflow/dags/af_foods.py
+[2023-04-28 16:23:05,531] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-28 16:23:05,533] {logging_mixin.py:115} INFO - [2023-04-28 16:23:05,533] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:23:05,828] {processor.py:651} INFO - DAG(s) dict_keys(['af_foods']) retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:23:05,872] {logging_mixin.py:115} INFO - [2023-04-28 16:23:05,872] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-04-28 16:23:05,887] {logging_mixin.py:115} INFO - [2023-04-28 16:23:05,887] {dag.py:2919} INFO - Setting next_dagrun for af_foods to None, run_after=None
+[2023-04-28 16:23:05,896] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.372 seconds
+[2023-04-28 16:23:36,094] {processor.py:153} INFO - Started process (PID=228) to work on /opt/airflow/dags/af_foods.py
+[2023-04-28 16:23:36,095] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-28 16:23:36,097] {logging_mixin.py:115} INFO - [2023-04-28 16:23:36,097] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:23:36,386] {processor.py:651} INFO - DAG(s) dict_keys(['af_foods']) retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:23:36,430] {logging_mixin.py:115} INFO - [2023-04-28 16:23:36,429] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-04-28 16:23:36,443] {logging_mixin.py:115} INFO - [2023-04-28 16:23:36,443] {dag.py:2919} INFO - Setting next_dagrun for af_foods to None, run_after=None
+[2023-04-28 16:23:36,452] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.364 seconds
+[2023-04-28 16:24:06,649] {processor.py:153} INFO - Started process (PID=234) to work on /opt/airflow/dags/af_foods.py
+[2023-04-28 16:24:06,651] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-28 16:24:06,653] {logging_mixin.py:115} INFO - [2023-04-28 16:24:06,652] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:24:06,934] {processor.py:651} INFO - DAG(s) dict_keys(['af_foods']) retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:24:06,978] {logging_mixin.py:115} INFO - [2023-04-28 16:24:06,977] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-04-28 16:24:06,992] {logging_mixin.py:115} INFO - [2023-04-28 16:24:06,992] {dag.py:2919} INFO - Setting next_dagrun for af_foods to None, run_after=None
+[2023-04-28 16:24:07,001] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.355 seconds
+[2023-04-28 16:24:37,179] {processor.py:153} INFO - Started process (PID=240) to work on /opt/airflow/dags/af_foods.py
+[2023-04-28 16:24:37,180] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-28 16:24:37,182] {logging_mixin.py:115} INFO - [2023-04-28 16:24:37,181] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:24:37,561] {processor.py:651} INFO - DAG(s) dict_keys(['af_foods']) retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:24:37,609] {logging_mixin.py:115} INFO - [2023-04-28 16:24:37,608] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-04-28 16:24:37,624] {logging_mixin.py:115} INFO - [2023-04-28 16:24:37,624] {dag.py:2919} INFO - Setting next_dagrun for af_foods to None, run_after=None
+[2023-04-28 16:24:37,633] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.460 seconds
+[2023-04-28 16:25:07,857] {processor.py:153} INFO - Started process (PID=246) to work on /opt/airflow/dags/af_foods.py
+[2023-04-28 16:25:07,859] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-28 16:25:07,861] {logging_mixin.py:115} INFO - [2023-04-28 16:25:07,860] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:25:08,150] {processor.py:651} INFO - DAG(s) dict_keys(['af_foods']) retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:25:08,195] {logging_mixin.py:115} INFO - [2023-04-28 16:25:08,195] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-04-28 16:25:08,209] {logging_mixin.py:115} INFO - [2023-04-28 16:25:08,209] {dag.py:2919} INFO - Setting next_dagrun for af_foods to None, run_after=None
+[2023-04-28 16:25:08,218] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.367 seconds
+[2023-04-28 16:25:38,413] {processor.py:153} INFO - Started process (PID=252) to work on /opt/airflow/dags/af_foods.py
+[2023-04-28 16:25:38,415] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-28 16:25:38,416] {logging_mixin.py:115} INFO - [2023-04-28 16:25:38,416] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:25:38,706] {processor.py:651} INFO - DAG(s) dict_keys(['af_foods']) retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:25:38,750] {logging_mixin.py:115} INFO - [2023-04-28 16:25:38,750] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-04-28 16:25:38,764] {logging_mixin.py:115} INFO - [2023-04-28 16:25:38,764] {dag.py:2919} INFO - Setting next_dagrun for af_foods to None, run_after=None
+[2023-04-28 16:25:38,773] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.365 seconds
+[2023-04-28 16:26:08,972] {processor.py:153} INFO - Started process (PID=258) to work on /opt/airflow/dags/af_foods.py
+[2023-04-28 16:26:08,976] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-28 16:26:08,977] {logging_mixin.py:115} INFO - [2023-04-28 16:26:08,977] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:26:09,258] {processor.py:651} INFO - DAG(s) dict_keys(['af_foods']) retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:26:09,303] {logging_mixin.py:115} INFO - [2023-04-28 16:26:09,303] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-04-28 16:26:09,317] {logging_mixin.py:115} INFO - [2023-04-28 16:26:09,317] {dag.py:2919} INFO - Setting next_dagrun for af_foods to None, run_after=None
+[2023-04-28 16:26:09,326] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.358 seconds
+[2023-04-28 16:26:39,527] {processor.py:153} INFO - Started process (PID=264) to work on /opt/airflow/dags/af_foods.py
+[2023-04-28 16:26:39,529] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-28 16:26:39,531] {logging_mixin.py:115} INFO - [2023-04-28 16:26:39,530] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:26:39,831] {processor.py:651} INFO - DAG(s) dict_keys(['af_foods']) retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:26:39,850] {logging_mixin.py:115} INFO - [2023-04-28 16:26:39,850] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-04-28 16:26:39,864] {logging_mixin.py:115} INFO - [2023-04-28 16:26:39,864] {dag.py:2919} INFO - Setting next_dagrun for af_foods to None, run_after=None
+[2023-04-28 16:26:39,872] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.350 seconds
+[2023-04-28 16:27:10,072] {processor.py:153} INFO - Started process (PID=270) to work on /opt/airflow/dags/af_foods.py
+[2023-04-28 16:27:10,074] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-28 16:27:10,075] {logging_mixin.py:115} INFO - [2023-04-28 16:27:10,075] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:27:10,357] {processor.py:651} INFO - DAG(s) dict_keys(['af_foods']) retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:27:10,401] {logging_mixin.py:115} INFO - [2023-04-28 16:27:10,401] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-04-28 16:27:10,415] {logging_mixin.py:115} INFO - [2023-04-28 16:27:10,415] {dag.py:2919} INFO - Setting next_dagrun for af_foods to None, run_after=None
+[2023-04-28 16:27:10,424] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.358 seconds
+[2023-04-28 16:27:40,629] {processor.py:153} INFO - Started process (PID=276) to work on /opt/airflow/dags/af_foods.py
+[2023-04-28 16:27:40,631] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-28 16:27:40,632] {logging_mixin.py:115} INFO - [2023-04-28 16:27:40,631] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:27:40,913] {processor.py:651} INFO - DAG(s) dict_keys(['af_foods']) retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:27:40,957] {logging_mixin.py:115} INFO - [2023-04-28 16:27:40,957] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-04-28 16:27:40,971] {logging_mixin.py:115} INFO - [2023-04-28 16:27:40,971] {dag.py:2919} INFO - Setting next_dagrun for af_foods to None, run_after=None
+[2023-04-28 16:27:40,980] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.353 seconds
+[2023-04-28 16:28:11,161] {processor.py:153} INFO - Started process (PID=282) to work on /opt/airflow/dags/af_foods.py
+[2023-04-28 16:28:11,163] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-28 16:28:11,164] {logging_mixin.py:115} INFO - [2023-04-28 16:28:11,164] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:28:11,451] {processor.py:651} INFO - DAG(s) dict_keys(['af_foods']) retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:28:11,495] {logging_mixin.py:115} INFO - [2023-04-28 16:28:11,495] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-04-28 16:28:11,509] {logging_mixin.py:115} INFO - [2023-04-28 16:28:11,509] {dag.py:2919} INFO - Setting next_dagrun for af_foods to None, run_after=None
+[2023-04-28 16:28:11,518] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.361 seconds
+[2023-04-28 16:28:41,708] {processor.py:153} INFO - Started process (PID=288) to work on /opt/airflow/dags/af_foods.py
+[2023-04-28 16:28:41,709] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-28 16:28:41,711] {logging_mixin.py:115} INFO - [2023-04-28 16:28:41,711] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:28:42,009] {processor.py:651} INFO - DAG(s) dict_keys(['af_foods']) retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:28:42,053] {logging_mixin.py:115} INFO - [2023-04-28 16:28:42,052] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-04-28 16:28:42,067] {logging_mixin.py:115} INFO - [2023-04-28 16:28:42,067] {dag.py:2919} INFO - Setting next_dagrun for af_foods to None, run_after=None
+[2023-04-28 16:28:42,077] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.375 seconds
+[2023-04-28 16:29:12,283] {processor.py:153} INFO - Started process (PID=294) to work on /opt/airflow/dags/af_foods.py
+[2023-04-28 16:29:12,285] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-28 16:29:12,287] {logging_mixin.py:115} INFO - [2023-04-28 16:29:12,287] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:29:12,745] {processor.py:651} INFO - DAG(s) dict_keys(['af_foods']) retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:29:12,795] {logging_mixin.py:115} INFO - [2023-04-28 16:29:12,795] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-04-28 16:29:12,810] {logging_mixin.py:115} INFO - [2023-04-28 16:29:12,810] {dag.py:2919} INFO - Setting next_dagrun for af_foods to None, run_after=None
+[2023-04-28 16:29:12,823] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.546 seconds
+[2023-04-28 16:29:43,066] {processor.py:153} INFO - Started process (PID=300) to work on /opt/airflow/dags/af_foods.py
+[2023-04-28 16:29:43,069] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-28 16:29:43,070] {logging_mixin.py:115} INFO - [2023-04-28 16:29:43,070] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:29:43,432] {processor.py:651} INFO - DAG(s) dict_keys(['af_foods']) retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:29:43,485] {logging_mixin.py:115} INFO - [2023-04-28 16:29:43,484] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-04-28 16:29:43,500] {logging_mixin.py:115} INFO - [2023-04-28 16:29:43,500] {dag.py:2919} INFO - Setting next_dagrun for af_foods to None, run_after=None
+[2023-04-28 16:29:43,508] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.448 seconds
+[2023-04-28 16:30:13,704] {processor.py:153} INFO - Started process (PID=306) to work on /opt/airflow/dags/af_foods.py
+[2023-04-28 16:30:13,706] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-28 16:30:13,708] {logging_mixin.py:115} INFO - [2023-04-28 16:30:13,708] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:30:14,134] {processor.py:651} INFO - DAG(s) dict_keys(['af_foods']) retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:30:14,182] {logging_mixin.py:115} INFO - [2023-04-28 16:30:14,181] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-04-28 16:30:14,197] {logging_mixin.py:115} INFO - [2023-04-28 16:30:14,197] {dag.py:2919} INFO - Setting next_dagrun for af_foods to None, run_after=None
+[2023-04-28 16:30:14,206] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.509 seconds
+[2023-04-28 16:30:44,379] {processor.py:153} INFO - Started process (PID=312) to work on /opt/airflow/dags/af_foods.py
+[2023-04-28 16:30:44,380] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-28 16:30:44,382] {logging_mixin.py:115} INFO - [2023-04-28 16:30:44,382] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:30:44,701] {processor.py:651} INFO - DAG(s) dict_keys(['af_foods']) retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:30:44,749] {logging_mixin.py:115} INFO - [2023-04-28 16:30:44,748] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-04-28 16:30:44,764] {logging_mixin.py:115} INFO - [2023-04-28 16:30:44,764] {dag.py:2919} INFO - Setting next_dagrun for af_foods to None, run_after=None
+[2023-04-28 16:30:44,773] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.400 seconds
+[2023-04-28 16:31:14,960] {processor.py:153} INFO - Started process (PID=318) to work on /opt/airflow/dags/af_foods.py
+[2023-04-28 16:31:14,962] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-28 16:31:14,964] {logging_mixin.py:115} INFO - [2023-04-28 16:31:14,964] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:31:15,261] {processor.py:651} INFO - DAG(s) dict_keys(['af_foods']) retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:31:15,305] {logging_mixin.py:115} INFO - [2023-04-28 16:31:15,305] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-04-28 16:31:15,319] {logging_mixin.py:115} INFO - [2023-04-28 16:31:15,319] {dag.py:2919} INFO - Setting next_dagrun for af_foods to None, run_after=None
+[2023-04-28 16:31:15,327] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.373 seconds
+[2023-04-28 16:31:45,522] {processor.py:153} INFO - Started process (PID=324) to work on /opt/airflow/dags/af_foods.py
+[2023-04-28 16:31:45,523] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-28 16:31:45,525] {logging_mixin.py:115} INFO - [2023-04-28 16:31:45,525] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:31:45,833] {processor.py:651} INFO - DAG(s) dict_keys(['af_foods']) retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:31:45,882] {logging_mixin.py:115} INFO - [2023-04-28 16:31:45,882] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-04-28 16:31:45,899] {logging_mixin.py:115} INFO - [2023-04-28 16:31:45,899] {dag.py:2919} INFO - Setting next_dagrun for af_foods to None, run_after=None
+[2023-04-28 16:31:45,910] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.393 seconds
+[2023-04-28 16:32:16,125] {processor.py:153} INFO - Started process (PID=330) to work on /opt/airflow/dags/af_foods.py
+[2023-04-28 16:32:16,126] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-28 16:32:16,127] {logging_mixin.py:115} INFO - [2023-04-28 16:32:16,127] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:32:16,494] {processor.py:651} INFO - DAG(s) dict_keys(['af_foods']) retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:32:16,541] {logging_mixin.py:115} INFO - [2023-04-28 16:32:16,541] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-04-28 16:32:16,558] {logging_mixin.py:115} INFO - [2023-04-28 16:32:16,558] {dag.py:2919} INFO - Setting next_dagrun for af_foods to None, run_after=None
+[2023-04-28 16:32:16,567] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.449 seconds
+[2023-04-28 16:32:46,787] {processor.py:153} INFO - Started process (PID=336) to work on /opt/airflow/dags/af_foods.py
+[2023-04-28 16:32:46,788] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-28 16:32:46,791] {logging_mixin.py:115} INFO - [2023-04-28 16:32:46,790] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:32:47,081] {processor.py:651} INFO - DAG(s) dict_keys(['af_foods']) retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:32:47,125] {logging_mixin.py:115} INFO - [2023-04-28 16:32:47,125] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-04-28 16:32:47,139] {logging_mixin.py:115} INFO - [2023-04-28 16:32:47,139] {dag.py:2919} INFO - Setting next_dagrun for af_foods to None, run_after=None
+[2023-04-28 16:32:47,148] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.367 seconds
+[2023-04-28 16:33:17,363] {processor.py:153} INFO - Started process (PID=342) to work on /opt/airflow/dags/af_foods.py
+[2023-04-28 16:33:17,365] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-28 16:33:17,366] {logging_mixin.py:115} INFO - [2023-04-28 16:33:17,366] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:33:17,707] {processor.py:651} INFO - DAG(s) dict_keys(['af_foods']) retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:33:17,733] {logging_mixin.py:115} INFO - [2023-04-28 16:33:17,732] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-04-28 16:33:17,749] {logging_mixin.py:115} INFO - [2023-04-28 16:33:17,749] {dag.py:2919} INFO - Setting next_dagrun for af_foods to None, run_after=None
+[2023-04-28 16:33:17,757] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.399 seconds
+[2023-04-28 16:33:47,975] {processor.py:153} INFO - Started process (PID=348) to work on /opt/airflow/dags/af_foods.py
+[2023-04-28 16:33:47,976] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-28 16:33:47,978] {logging_mixin.py:115} INFO - [2023-04-28 16:33:47,978] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:33:48,268] {processor.py:651} INFO - DAG(s) dict_keys(['af_foods']) retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:33:48,312] {logging_mixin.py:115} INFO - [2023-04-28 16:33:48,311] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-04-28 16:33:48,325] {logging_mixin.py:115} INFO - [2023-04-28 16:33:48,325] {dag.py:2919} INFO - Setting next_dagrun for af_foods to None, run_after=None
+[2023-04-28 16:33:48,334] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.365 seconds
+[2023-04-28 16:35:27,532] {processor.py:153} INFO - Started process (PID=356) to work on /opt/airflow/dags/af_foods.py
+[2023-04-28 16:35:27,534] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-28 16:35:27,536] {logging_mixin.py:115} INFO - [2023-04-28 16:35:27,536] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:35:27,979] {processor.py:651} INFO - DAG(s) dict_keys(['af_foods']) retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:35:28,032] {logging_mixin.py:115} INFO - [2023-04-28 16:35:28,032] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-04-28 16:35:28,046] {logging_mixin.py:115} INFO - [2023-04-28 16:35:28,046] {dag.py:2919} INFO - Setting next_dagrun for af_foods to None, run_after=None
+[2023-04-28 16:35:28,056] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.531 seconds
+[2023-04-28 16:35:58,244] {processor.py:153} INFO - Started process (PID=362) to work on /opt/airflow/dags/af_foods.py
+[2023-04-28 16:35:58,247] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-28 16:35:58,249] {logging_mixin.py:115} INFO - [2023-04-28 16:35:58,249] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:35:59,546] {processor.py:651} INFO - DAG(s) dict_keys(['af_foods']) retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:35:59,826] {logging_mixin.py:115} INFO - [2023-04-28 16:35:59,825] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-04-28 16:35:59,870] {logging_mixin.py:115} INFO - [2023-04-28 16:35:59,870] {dag.py:2919} INFO - Setting next_dagrun for af_foods to None, run_after=None
+[2023-04-28 16:35:59,926] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 1.690 seconds
+[2023-04-28 16:36:30,275] {processor.py:153} INFO - Started process (PID=368) to work on /opt/airflow/dags/af_foods.py
+[2023-04-28 16:36:30,277] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-28 16:36:30,279] {logging_mixin.py:115} INFO - [2023-04-28 16:36:30,279] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:36:30,754] {processor.py:651} INFO - DAG(s) dict_keys(['af_foods']) retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:36:30,812] {logging_mixin.py:115} INFO - [2023-04-28 16:36:30,811] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-04-28 16:36:30,829] {logging_mixin.py:115} INFO - [2023-04-28 16:36:30,829] {dag.py:2919} INFO - Setting next_dagrun for af_foods to None, run_after=None
+[2023-04-28 16:36:30,839] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.571 seconds
+[2023-04-28 16:37:01,002] {processor.py:153} INFO - Started process (PID=374) to work on /opt/airflow/dags/af_foods.py
+[2023-04-28 16:37:01,005] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-28 16:37:01,006] {logging_mixin.py:115} INFO - [2023-04-28 16:37:01,006] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:37:01,582] {processor.py:651} INFO - DAG(s) dict_keys(['af_foods']) retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:37:01,637] {logging_mixin.py:115} INFO - [2023-04-28 16:37:01,637] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-04-28 16:37:01,665] {logging_mixin.py:115} INFO - [2023-04-28 16:37:01,665] {dag.py:2919} INFO - Setting next_dagrun for af_foods to None, run_after=None
+[2023-04-28 16:37:01,675] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.679 seconds
+[2023-04-28 16:37:31,894] {processor.py:153} INFO - Started process (PID=380) to work on /opt/airflow/dags/af_foods.py
+[2023-04-28 16:37:31,897] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-28 16:37:31,898] {logging_mixin.py:115} INFO - [2023-04-28 16:37:31,898] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:37:32,320] {processor.py:651} INFO - DAG(s) dict_keys(['af_foods']) retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:37:32,370] {logging_mixin.py:115} INFO - [2023-04-28 16:37:32,370] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-04-28 16:37:32,386] {logging_mixin.py:115} INFO - [2023-04-28 16:37:32,386] {dag.py:2919} INFO - Setting next_dagrun for af_foods to None, run_after=None
+[2023-04-28 16:37:32,397] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.509 seconds
+[2023-04-28 16:38:02,593] {processor.py:153} INFO - Started process (PID=386) to work on /opt/airflow/dags/af_foods.py
+[2023-04-28 16:38:02,595] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-28 16:38:02,597] {logging_mixin.py:115} INFO - [2023-04-28 16:38:02,597] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:38:02,991] {processor.py:651} INFO - DAG(s) dict_keys(['af_foods']) retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:38:03,039] {logging_mixin.py:115} INFO - [2023-04-28 16:38:03,039] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-04-28 16:38:03,053] {logging_mixin.py:115} INFO - [2023-04-28 16:38:03,053] {dag.py:2919} INFO - Setting next_dagrun for af_foods to None, run_after=None
+[2023-04-28 16:38:03,062] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.475 seconds
+[2023-04-28 16:38:33,263] {processor.py:153} INFO - Started process (PID=392) to work on /opt/airflow/dags/af_foods.py
+[2023-04-28 16:38:33,266] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-28 16:38:33,268] {logging_mixin.py:115} INFO - [2023-04-28 16:38:33,267] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:38:33,649] {processor.py:651} INFO - DAG(s) dict_keys(['af_foods']) retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:38:33,700] {logging_mixin.py:115} INFO - [2023-04-28 16:38:33,699] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-04-28 16:38:33,715] {logging_mixin.py:115} INFO - [2023-04-28 16:38:33,715] {dag.py:2919} INFO - Setting next_dagrun for af_foods to None, run_after=None
+[2023-04-28 16:38:33,724] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.466 seconds
+[2023-04-28 16:39:03,903] {processor.py:153} INFO - Started process (PID=398) to work on /opt/airflow/dags/af_foods.py
+[2023-04-28 16:39:03,905] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-28 16:39:03,906] {logging_mixin.py:115} INFO - [2023-04-28 16:39:03,906] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:39:04,365] {processor.py:651} INFO - DAG(s) dict_keys(['af_foods']) retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:39:04,418] {logging_mixin.py:115} INFO - [2023-04-28 16:39:04,418] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-04-28 16:39:04,433] {logging_mixin.py:115} INFO - [2023-04-28 16:39:04,433] {dag.py:2919} INFO - Setting next_dagrun for af_foods to None, run_after=None
+[2023-04-28 16:39:04,444] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.546 seconds
+[2023-04-28 16:39:34,705] {processor.py:153} INFO - Started process (PID=404) to work on /opt/airflow/dags/af_foods.py
+[2023-04-28 16:39:34,707] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-28 16:39:34,707] {logging_mixin.py:115} INFO - [2023-04-28 16:39:34,707] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:39:35,004] {processor.py:651} INFO - DAG(s) dict_keys(['af_foods']) retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-28 16:39:35,578] {logging_mixin.py:115} INFO - [2023-04-28 16:39:35,574] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-04-28 16:39:35,699] {logging_mixin.py:115} INFO - [2023-04-28 16:39:35,699] {dag.py:2919} INFO - Setting next_dagrun for af_foods to None, run_after=None
+[2023-04-28 16:39:35,723] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 1.022 seconds
+[2023-04-28 17:00:09,279] {processor.py:153} INFO - Started process (PID=412) to work on /opt/airflow/dags/af_foods.py
+[2023-04-28 17:00:09,281] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-28 17:00:09,283] {logging_mixin.py:115} INFO - [2023-04-28 17:00:09,283] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-28 17:00:10,109] {processor.py:651} INFO - DAG(s) dict_keys(['af_foods']) retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-28 17:00:10,165] {logging_mixin.py:115} INFO - [2023-04-28 17:00:10,164] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-04-28 17:00:10,185] {logging_mixin.py:115} INFO - [2023-04-28 17:00:10,185] {dag.py:2919} INFO - Setting next_dagrun for af_foods to None, run_after=None
+[2023-04-28 17:00:10,203] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 0.940 seconds
+[2023-04-28 17:41:17,992] {processor.py:153} INFO - Started process (PID=418) to work on /opt/airflow/dags/af_foods.py
+[2023-04-28 17:41:17,996] {processor.py:641} INFO - Processing file /opt/airflow/dags/af_foods.py for tasks to queue
+[2023-04-28 17:41:18,000] {logging_mixin.py:115} INFO - [2023-04-28 17:41:18,000] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/af_foods.py
+[2023-04-28 17:41:18,936] {processor.py:651} INFO - DAG(s) dict_keys(['af_foods']) retrieved from /opt/airflow/dags/af_foods.py
+[2023-04-28 17:41:19,004] {logging_mixin.py:115} INFO - [2023-04-28 17:41:19,003] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-04-28 17:41:19,034] {logging_mixin.py:115} INFO - [2023-04-28 17:41:19,034] {dag.py:2919} INFO - Setting next_dagrun for af_foods to None, run_after=None
+[2023-04-28 17:41:19,055] {processor.py:161} INFO - Processing /opt/airflow/dags/af_foods.py took 1.089 seconds
